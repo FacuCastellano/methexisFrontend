@@ -1,0 +1,24 @@
+.topicCard-container {
+    width: 100%;
+    display: grid;
+    margin: 10px 15px;
+    grid-template-columns: 1fr 1fr;
+    /* border:3px solid greenyellow; */
+    background-color:rgb(206, 220, 233);
+    border-radius: 15px;
+    
+}
+
+.view4 .topic-name{
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .topicCard-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      
+    }
+  }

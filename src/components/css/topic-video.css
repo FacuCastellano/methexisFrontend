@@ -1,0 +1,27 @@
+
+.topicVideo-container{
+    /* border:5px blue solid;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topicVideo-container iframe{
+    justify-self: center;
+    width: min(100%,500px);
+    height: 300px;
+    /* border: 2px solid violet;  */
+
+}
+
+.comments-container{
+    background-color:aliceblue ;
+    border: 2px solid black;
+}
+
+
+.comments-container {
+    max-height: 200px;
+    overflow-y: scroll;
+  }
+  

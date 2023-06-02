@@ -1,0 +1,19 @@
+.subject {
+    text-transform: capitalize;
+    font-size: x-large;
+    padding: 15px;
+    width:min(calc(100% - 40px),200px);
+    border: 5px solid var(--color-bordes);
+    border-radius: 15px;
+    background-color: var(--color3);
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subject:active{
+    scale:0.95;
+    opacity: 0.8;
+    border: 5px solid rgb(88, 84, 84);
+}

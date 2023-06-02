@@ -1,0 +1,18 @@
+.buttons-t1-table{
+  margin:0;
+  padding:20px;
+  width: calc(100% - 40px); 
+  
+  /* border: 2px green solid; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 40px;
+  row-gap: 40px;
+}
+
+@media screen and (max-width: 500px) {
+  .buttons-t1-table {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,34 @@
+.comment-container{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    border:2px solid grey;
+}
+.comment-container .user-info{
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+
+}
+.comment-container .user-info p{
+    margin-left: 15px;
+    font-size: medium;
+    background-color: aliceblue;
+}
+
+
+.comment-container img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: aliceblue;
+}
+
+.comment-container .comment-text{
+    font-size: 14px;
+}
+
+.comment-container .icon-reaction-comment{
+    font-size: 17px;
+}
